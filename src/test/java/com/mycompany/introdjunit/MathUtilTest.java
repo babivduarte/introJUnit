@@ -27,12 +27,4 @@ class MathUtilTest {
         assertEquals(esperado, obtido);
     }
     
-    @Test
-    void testMdcAZeroP1(){
-        final int a = 0;
-        final int b = 3;
-        final int esperado = b;
-        final int obtido = MathUtil.mdc(a, b);
-        assertEquals(esperado, obtido);
-    }
 }
